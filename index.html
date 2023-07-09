@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/fonts/style.css" />
+
+    <title>Registration form</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <form action="#">
+        <div class="form-content">
+          <div class="form-header">
+            <h1 id="form-title">Registration Form</h1>
+            <p id="form-description">
+              Please fill out this form with the required information
+            </p>
+
+            <div class="progress-bar">
+              <span class="progress-circle active" id="ciruclar-step-I">1</span>
+              <span class="progress-circle" id="ciruclar-step-II">2</span>
+              <span class="progress-circle" id="ciruclar-step-III">3</span>
+            </div>
+          </div>
+
+          <div class="form-body">
+            <fieldset id="form-step-I" class="active">
+              <legend>Select your account type</legend>
+              <div class="form-control">
+                <input
+                  type="radio"
+                  name="account-type"
+                  id="personal-account"
+                  class="checkbox-account-type"
+                  checked
+                />
+                <label for="personal-account" class="radio-style">
+                  <span class="icon-personal-account"></span>
+                  <p>Personal Account</p></label
+                >
+              </div>
+
+              <div class="form-control">
+                <input
+                  type="radio"
+                  name="account-type"
+                  id="business-account"
+                  class="checkbox-account-type"
+                />
+                <label for="business-account" class="radio-style">
+                  <span class="icon-business-account"></span>
+                  <p>Business Account</p></label
+                >
+              </div>
+            </fieldset>
+
+            <fieldset id="form-step-II" class="active">
+              <div class="form-control">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="John Doe">
+              </div>
+              <div class="form-control">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="jhondoe@mail.com">
+              </div>
+              <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="********">
+              </div>
+
+           
+            </fieldset>
+
+
+            <fieldset id="form-step-III" class="active">
+              <div class="form-control">
+                <label for="age">Age</label>
+                <input type="number" id="age" placeholder="23">
+              </div>
+              <div class="form-control">
+                <label for="area-of-interest">Area of Interest</label>
+                <select name="" id="area-of-interest">
+                  <option value="frontend">Frontend</option>
+                  <option value="backend">Backend</option>
+                  <option value="fullstack">Full Stack</option>
+                  <option value="uiux">Ui/Ux</option>
+                </select>
+              </div>
+              <div class="form-control">
+                <textarea name="bio" id="" cols="10" rows="5" placeholder="Bio / Description"></textarea>
+              </div>
+
+           
+            </fieldset>
+          </div>
+          <div class="form-buttons">
+            <button class="btn btn-secondary hidden" id="previous-button" >
+              <span class="icon-left-arrow"></span>Prev
+            </button>
+
+            <button class="btn btn-primary" id="next-button">
+              Next <span class="icon-right-arrow span" ></span>
+            </button>
+            <button class="btn btn-primary hidden" id="submit-button">
+              Submit <span class="icon-right-arrow span" ></span>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

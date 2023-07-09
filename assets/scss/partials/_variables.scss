@@ -1,0 +1,43 @@
+/* Font */
+$font-family: "Poppins", sans-serif;
+
+/* Zinc Colors */
+$c-zinc-0: #fff;
+$c-zinc-50: #fafafa;
+$c-zinc-100: #f4f4f5;
+$c-zinc-300: #f4f4f5;
+$c-zinc-350: #c8c8d0;
+$c-zinc-400: #a1a1aa;
+$c-zinc-800: #27272a;
+
+/* Purple Colors */
+$c-purple-500: #7b44f2;
+$c-pastel-purple-500: #b991ff;
+
+/* Green Colors */
+$c-green-500: #84f216;
+$c-pastel-green-500: #BDFF85;
+
+/* Red Color */
+$c-red-500: #f24444;
+
+/* Background Colors */
+$c-bg-primary: $c-zinc-50;
+$c-bg-secondary: $c-zinc-0;
+
+/* Accent Color */
+$c-accent: $c-pastel-purple-500;
+$c-accent-hover: $c-purple-500;
+
+/* Font Colors */
+$f-c-light: $c-zinc-0;
+$f-c-medium: $c-zinc-350;
+$f-c-dark: $c-zinc-800;
+
+/* Font Sizes */
+$f-size-big: 1.75rem;
+$f-size-normal: .875rem;
+$f-size-small: .75rem;
+
+$b-radious-normal: .5rem;
+$b-radious-small: .25rem;
