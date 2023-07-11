@@ -1,4 +1,4 @@
-# Registration Form
+# Mult-step registration form
 <img src="https://github.com/colaresAmanda/mult-setp-form/assets/83729891/09f7fa02-1d9f-48a0-949a-3f1e895d4920" height="325px"/>
 <img src="https://github.com/colaresAmanda/mult-setp-form/assets/83729891/edddf126-db09-4115-b28f-7a0be8101af7" height="325px"/>
 
