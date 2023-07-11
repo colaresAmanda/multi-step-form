@@ -19,7 +19,8 @@ function init() {
     let translateValue = 0;
   
     // Event listener for "Next" button
-    nextButton.addEventListener('click', () => {
+    nextButton.addEventListener('click', (e) => {
+      e.preventDefault()
       if (step.I) {
         // Toggle visibility and active state
         previousButton.classList.toggle("hidden");
@@ -49,6 +50,8 @@ function init() {
   
     // Event listener for "Previous" button
     previousButton.addEventListener('click', () => {
+      e.preventDefault()
+
       if (step.II) {
         // Toggle visibility and active state
         formStepII.classList.toggle('active');
