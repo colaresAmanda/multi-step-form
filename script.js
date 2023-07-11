@@ -50,7 +50,6 @@ function init() {
   
     // Event listener for "Previous" button
     previousButton.addEventListener('click', () => {
-      e.preventDefault()
 
       if (step.II) {
         // Toggle visibility and active state
